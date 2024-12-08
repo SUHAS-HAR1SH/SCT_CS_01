@@ -6,22 +6,25 @@ Decryption: Restores the original message by reversing the shift.
 Case Sensitivity: Maintains uppercase and lowercase characters.
 Non-Alphabet Support: Leaves symbols, numbers, and spaces unaltered.
 User-Friendly: Command-line interface with clear prompts for input.
-📋 How It Works
-The Caesar Cipher shifts each letter in the input text by a fixed number of places in the alphabet. For example:
 
+📋 How It Works
+
+The Caesar Cipher shifts each letter in the input text by a fixed number of places in the alphabet. 
+For example:
 Encrypt: "HELLO" with a shift of 3 becomes "KHOOR".
 Decrypt: "KHOOR" with the same shift returns "HELLO".
 This program uses modular arithmetic to wrap around the alphabet and ensures all characters are processed correctly.
 
 🛠️ Installation & Usage
-Prerequisites
+Prerequisites:
+
 Python 3.x installed on your system.
-Steps
+Steps:
+
 Clone this repository:
 bash
 Copy code
-git clone https://github.com/your-username/caesar-cipher-tool.git
-cd caesar-cipher-tool
+git clone https://github.com/SUHAS-HAR1SH/SCT_CS_01.git
 Run the program:
 bash
 Copy code
@@ -30,23 +33,22 @@ Follow the prompts:
 Input your message.
 Provide the shift value.
 Choose whether to encrypt or decrypt.
+
 👨‍💻 Example
 Input:
-
-plaintext
-Copy code
 Enter your message: Hello World  
 Enter the shift value: 3  
 Choose 'encrypt' or 'decrypt': encrypt  
-Output:
 
-plaintext
-Copy code
+Output:
 Result: Khoor Zruog  
+
+
 📚 Concepts Covered
 Substitution ciphers and cryptographic basics.
 Python string manipulation and control structures.
 Modular arithmetic for alphabet wrapping.
+
 🤝 Contributing
 Contributions are welcome! Feel free to submit a pull request or open an issue if you have suggestions for improvements, bugs, or new features.
 
